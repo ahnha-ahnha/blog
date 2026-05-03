@@ -1,1 +1,1 @@
-Hello world!
+God is good, All the time!
