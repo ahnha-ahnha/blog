@@ -29,12 +29,13 @@
     - 6,720, **cc-by-nc-4.0 (학습 사용불가)**
 2. [https://huggingface.co/datasets/firaapril/child-safe-vlm-databaru/tree/main/images](https://huggingface.co/datasets/firaapril/child-safe-vlm-databaru/tree/main/images "https://huggingface.co/datasets/firaapril/child-safe-vlm-databaru/tree/main/images")
     1. 아동 괴롭힘 합성 이미지, 105개
+    2. no license
 3.  [https://huggingface.co/datasets/ArthT/vlm-safety-circuits](https://huggingface.co/datasets/ArthT/vlm-safety-circuits "https://huggingface.co/datasets/artht/vlm-safety-circuits")
     1. **각 항목에는 38개의 안전 범주** 에 걸쳐 유해/무해한 반사실적 상황 쌍이 포함되어 있으며, 50개의 JailbreakBench 스타일 프롬프트가 제공됩니다. 데이터 세트는 세 가지 유형의 반사실적 상황을 다룹니다.
         1. |Text counterfactual|226|Same image, harmful vs. benign text|
         2. |Image counterfactual|150|Same text, harmful vs. benign image|
         3. |Typographic attack|44|Harmful text embedded in image|
-    2. 325? 420?, no-license
+    2. 325? 420?, MIT
 4. [https://huggingface.co/datasets/oneonlee/Meme-Safety-Bench](https://huggingface.co/datasets/oneonlee/Meme-Safety-Bench "https://huggingface.co/datasets/oneonlee/meme-safety-bench")
     1. MemeSafetyBench는 유해한 지침과 무해한 지침을 실제 밈 이미지와 짝지어 제공하는 50,430개의 인스턴스로 구성된 종합적인 벤치마크 데이터셋
     2. 46,599개의 유해 샘플(92.4%)  - 3,831개의 무해한 샘플(7.6%)
@@ -45,7 +46,7 @@
 5. [https://huggingface.co/datasets/kzhou35/mssbench](https://huggingface.co/datasets/kzhou35/mssbench "https://huggingface.co/datasets/kzhou35/mssbench")
     1. [https://github.com/eric-ai-lab/MSSBench](https://github.com/eric-ai-lab/MSSBench "https://github.com/eric-ai-lab/mssbench")
     2. json 파일에 text가 있음. 공간에 대한 상황설명이 safe 한지
-    3. 724, no-license
+    3. 724, MIT
 6. [https://huggingface.co/datasets/sinwang/SIUO](https://huggingface.co/datasets/sinwang/SIUO "https://huggingface.co/datasets/sinwang/siuo") (원본)
     1. [https://huggingface.co/datasets/oneonlee/SIUO](https://huggingface.co/datasets/oneonlee/SIUO "https://huggingface.co/datasets/oneonlee/siuo") (사용하기 좋게)
     2. SIUO (Safe-Input Unsafe-Output),  json 파일에 text가 있음
@@ -69,7 +70,7 @@
 	1. 유사한 맥락의 사진을 '안전(Safe)'과 '위험(Unsafe)'으로 짝을 지어 제공
 	2. 비슷한 구도나 사물이 포함되어 있지만, 결정적인 상황(Context)에 따라 레이블이 갈리는 쌍
 	3. 185 pairs, 검증용, no-license
-11. [https://huggingface.co/datasets/yizhilsy/Toy_SafetyBench_jailbreak_rq)](https://huggingface.co/datasets/yizhilsy/Toy_SafetyBench_jailbreak_rq)
+11. [https://huggingface.co/datasets/yizhilsy/Toy_SafetyBench_jailbreak_rq](https://huggingface.co/datasets/yizhilsy/Toy_SafetyBench_jailbreak_rq)
 	1. 소규모 Jailbreak 4000 rows, no-license
 12. https://huggingface.co/datasets/albertklorer/safedocs
 	1. OCR 기반 가드레일 170,000 rows, no-license
